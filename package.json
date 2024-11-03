@@ -1,11 +1,14 @@
 {
     "name": "wordle-info",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "TypeScript library for fetching Wordle game info.",
     "main": "./dist/index.js",
-    "types": "dist/index.d.ts",
+    "types": "./dist/index.d.ts",
     "repository": "git@github.com:tarna/wordle-info",
     "bugs": "https://github.com/tarna/wordle-info/issues",
+    "files": [
+        "dist"
+    ],
     "author": "Tarna",
     "scripts": {
         "prepublish": "tsc",
